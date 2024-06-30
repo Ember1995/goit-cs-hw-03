@@ -65,11 +65,13 @@ if __name__ == '__main__':
 
     with create_connection() as conn:
         if conn is not None:
-						# create users table
+			# create users table
             create_table(conn, sql_create_users_table)
-						# create statuses table
+
+			# create statuses table
             create_table(conn, sql_create_statuses_table)
-						# create tasks table
+
+			# create tasks table
             create_table(conn, sql_create_tasks_table)
         else:
             print("Error! cannot create the database connection.")
