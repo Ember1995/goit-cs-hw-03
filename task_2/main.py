@@ -4,7 +4,7 @@ from bson.objectid import ObjectId
 
 # Підключення до MongoDB
 client = MongoClient(
-    "mongodb+srv://hannadunska:cPMwIs8bKUC8Fux2@cluster0.gpl8kd8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+    "mongodb+srv://hannadunska:<hidden_for_security_reason>@cluster0.gpl8kd8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
     server_api=ServerApi('1')
 )
 
